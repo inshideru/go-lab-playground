@@ -37,7 +37,7 @@ func main() {
 		if unidadeOrigem == "celsius" {
 			valorDestino = valorOrigem*1.8 + 32
 		} else {
-			valorDestino = valorDestino / 1.60934
+			valorDestino = valorOrigem / 1.60934
 		}
 
 		fmt.Printf("%.2f %s = %.2f %s\n", valorOrigem, unidadeOrigem, valorDestino, unidadeDestino)
